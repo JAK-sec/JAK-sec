@@ -12,4 +12,4 @@ C#, CSS, JavaScript, PowerShell
 
 ## 🛠 My Favorite Tools
 
-Visual Studio, Claude ,Powershell, Terminal, VS Code
+Visual Studio, Claude ,Powershell, Terminal, VS Code.
