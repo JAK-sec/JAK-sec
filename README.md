@@ -1,16 +1,15 @@
-## Hi there 👋
+## Hi, I'm Joseph K Abiodun 💫
 
-<!--
-**JAK-sec/JAK-sec** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 💻 Cybersecurity / Currently a FInancial Service Representative
+- 🌱 Currently learning: JavaScript,C#, PowerShell
+- 🏫 Educational Level: Computer Science at John Abbott to transition to Cyber Sec in Concordia
+- 📫 Reach me: YOUR_EMAIL / [LinkedIn]
+  (https://www.linkedin.com/in/joseph-abiodun-66b43b3a4)
 
-Here are some ideas to get you started:
+## ⚙My Tech Stack
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+C#, CSS, JavaScript, PowerShell
+
+## 🛠 My Favorite Tools
+
+Visual Studio, Claude ,Powershell, Terminal, VS Code
