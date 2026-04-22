@@ -1,0 +1,64 @@
+/* Default Mobile Styles */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 1rem;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+ul li:hover {
+  background-color: blue;
+}
+
+/* Tablet and up (e.g., 768px) */
+@media (min-width: 768px) {
+  body {
+    padding: 2rem;
+  }
+}
+
+/* Desktop and up (e.g., 1024px) */
+@media (min-width: 1024px) {
+  .container {
+    display: flex; /* Scale up to multi-column layout */
+  }
+}
+
+
+nav {
+  border: 20px solid black;
+}
+
+
+.Icon {
+  background-color: blue;
+  margin-left: 25rem;
+}
+
+.about{
+margin-left: 30rem;
+}
+
+.Closer{
+    margin-top: 15rem;
+    text-align: center;
+}
