@@ -1,0 +1,83 @@
+/* Default Mobile Styles */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0rem 1rem 1rem 1rem;
+  background-color: black;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* NAV BAR STYLES */
+
+nav {
+  padding: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+ul li:hover {
+  background-color: blue;
+}
+
+/*Media Queries*/
+
+/* Tablet and up (e.g., 768px) */
+@media (min-width: 768px) {
+}
+
+/* Desktop and up (e.g., 1024px) */
+@media (min-width: 1024px) {
+  .container {
+    display: flex; /* Scale up to multi-column layout */
+  }
+}
+
+.Icon {
+  background-color: blue;
+  margin-left: 25rem;
+}
+
+.intro-section {
+  background-image: url("../assets/images/Cyber sec UI Website Logo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+}
+
+.about {
+  margin-left: 30rem;
+}
+
+.Closer {
+  margin-top: 15rem;
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+}
+
+.socials img {
+  max-width: 6%;
+}
