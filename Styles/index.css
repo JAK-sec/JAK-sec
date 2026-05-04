@@ -81,3 +81,12 @@ ul li:hover {
 .socials img {
   max-width: 6%;
 }
+
+a img {
+  transition: opacity 0.2s ease;
+  cursor: pointer;
+}
+
+a img:hover {
+  opacity: 0.75;
+}
