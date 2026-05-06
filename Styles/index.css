@@ -37,7 +37,7 @@ ul li a {
 }
 
 ul li:hover {
-  background-color: blue;
+  background-color: rgb(255, 81, 0);
 }
 
 /* Media Queries ************************************/
@@ -54,7 +54,7 @@ ul li:hover {
 }
 
 .Icon {
-  background-color: blue;
+  background-color: rgb(255, 81, 0);
   margin-left: 25rem;
 }
 
@@ -107,4 +107,155 @@ a img {
 
 a img:hover {
   opacity: 0.75;
+}
+
+/* index.css */
+
+/* ── Tech Section ── */
+.tech-section {
+  padding: 60px 40px;
+  background-color: var(--bg-color);
+}
+
+.tech-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: var(--text-color);
+  text-align: left;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  max-width: 700px;
+  margin: 0;
+}
+
+.tech-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.tech-badge {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  color: var(--badge-text);
+  font-weight: 700;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* ── Projects Section ── */
+.projects-section {
+  padding: 60px 40px;
+  background-color: var(--bg-color);
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background-color: var(--card-bg);
+  border: 1px solid #222;
+  border-radius: var(--border-radius);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  transition: background-color var(--transition), transform var(--transition),
+    border-color var(--transition);
+  cursor: pointer;
+}
+
+.project-card:hover {
+  background-color: var(--card-hover-bg);
+  border-color: var(--accent-color);
+  transform: translateY(-4px);
+}
+
+.project-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--text-color);
+}
+
+.project-desc {
+  font-size: 0.95rem;
+  color: #aaaaaa;
+  line-height: 1.5;
+}
+
+.project-tag {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 0.8rem;
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 20px;
+  padding: 4px 12px;
+}
+
+.project-hover-text {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--accent-color);
+  opacity: 0;
+  transition: opacity var(--transition);
+}
+
+.project-card:hover .project-hover-text {
+  opacity: 1;
+}
+
+/* ── Contact Section ── */
+.contact-section {
+  padding: 60px 40px;
+  background-color: var(--bg-color);
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+.contact-desc {
+  font-size: 1rem;
+  color: #aaaaaa;
+  max-width: 500px;
+  margin: 0 auto 32px auto;
+  line-height: 1.6;
+}
+
+.contact-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  border: 1px solid var(--accent-color);
+  border-radius: 30px;
+  color: var(--accent-color);
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color var(--transition), color var(--transition);
+}
+
+.contact-btn:hover {
+  background-color: var(--accent-color);
+  color: #000000;
 }

@@ -1,3 +1,51 @@
-h1{
-    font-weight: bolder;
+h1 {
+  font-weight: bolder;
+}
+
+/* global.css */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-color: #000000;
+  --text-color: #ffffff;
+  --accent-color: #ef7e0d;
+  --card-bg: #111111;
+  --card-hover-bg: #1a1a1a;
+  --badge-text: #0a0a0a;
+  --border-radius: 12px;
+  --transition: 0.3s ease;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.tech-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.projects-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: var(--text-color);
+  text-align: center;
+}
+html {
+  scroll-behavior: smooth;
 }
