@@ -96,7 +96,7 @@ a img:hover {
 .tech-title {
   font-size: 1.8rem;
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 40px; /*! improv this rem always better*/
   color: var(--text-color);
   text-align: left;
 }
@@ -104,20 +104,20 @@ a img:hover {
 .tech-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-  max-width: 700px;
+  gap: 24px; /*! improv this ,rem better*/
+  max-width: 700px; /*! improv this,better */
   margin: 0;
 }
 
 .tech-item {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 16px; /*! improv this,rem better */
 }
 
 .tech-badge {
-  width: 48px;
-  height: 48px;
+  width: 48px; /*! improv this,rem better */
+  height: 48px; /*! improv this,rem better */
   border-radius: 50%;
   background-color: var(--accent-color);
   color: var(--badge-text);
@@ -131,7 +131,7 @@ a img:hover {
 
 /* ── Projects Section ── */
 .projects-section {
-  padding: 60px 40px;
+  padding: 60px 40px; /*! improv this ,rem better*/
   background-color: var(--bg-color);
 }
 
@@ -152,9 +152,7 @@ a img:hover {
   flex-direction: column;
   justify-content: space-between;
   gap: 16px;
-  transition:
-    background-color var(--transition),
-    transform var(--transition),
+  transition: background-color var(--transition), transform var(--transition),
     border-color var(--transition);
   cursor: pointer;
 }
@@ -230,9 +228,7 @@ a img:hover {
   color: var(--accent-color);
   font-size: 1rem;
   font-weight: 600;
-  transition:
-    background-color var(--transition),
-    color var(--transition);
+  transition: background-color var(--transition), color var(--transition);
 }
 
 .contact-btn:hover {
