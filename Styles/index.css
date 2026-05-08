@@ -53,6 +53,9 @@ ul li:hover {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 80vh;
+  display: flex;
+  align-items: flex-start;
+  padding: 1.5rem 2rem;
 }
 
 /* About Info */
@@ -96,7 +99,7 @@ a img:hover {
 .tech-title {
   font-size: 1.8rem;
   font-weight: 700;
-  margin-bottom: 40px; /*! improv this rem always better*/
+  margin-bottom: 2.5rem; /* was 40px */
   color: var(--text-color);
   text-align: left;
 }
@@ -104,20 +107,20 @@ a img:hover {
 .tech-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 24px; /*! improv this ,rem better*/
-  max-width: 700px; /*! improv this,better */
+  gap: 1.5rem; /* was 24px */
+  max-width: 43.75rem; /* was 700px */
   margin: 0;
 }
 
 .tech-item {
   display: flex;
   align-items: center;
-  gap: 16px; /*! improv this,rem better */
+  gap: 1rem; /* was 16px */
 }
 
 .tech-badge {
-  width: 48px; /*! improv this,rem better */
-  height: 48px; /*! improv this,rem better */
+  width: 3rem; /* was 48px */
+  height: 3rem; /* was 48px */
   border-radius: 50%;
   background-color: var(--accent-color);
   color: var(--badge-text);
@@ -131,7 +134,7 @@ a img:hover {
 
 /* ── Projects Section ── */
 .projects-section {
-  padding: 60px 40px; /*! improv this ,rem better*/
+  padding: 3.75rem 2.5rem; /* was 60px 40px */
   background-color: var(--bg-color);
 }
 
@@ -247,13 +250,13 @@ a img:hover {
 
   .hero-intro {
     align-self: flex-start;
-    max-width: 36rem; /* ! kinda a weird unit for this */
+    max-width: 45%;
   }
 
   .hero-about {
     align-self: flex-end;
     text-align: right;
-    max-width: 36rem; /* ! kinda a weird unit for this */
+    max-width: 45%;
   }
 
   .tech-section {
