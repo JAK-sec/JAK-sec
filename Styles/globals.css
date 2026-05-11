@@ -60,3 +60,7 @@ html {
     0 0 40px rgba(255, 60, 60, 0.3);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.copyright {
+  text-align: center;
+}
